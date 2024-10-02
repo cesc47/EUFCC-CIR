@@ -29,18 +29,18 @@ The dataset is organized within the `data/` folder, consisting of the following 
 
 ### 🗂️ **CSV Columns Breakdown**
 
-| 🔢 **Column**         | 📖 **Description**                                                                                 |
-|-----------------------|---------------------------------------------------------------------------------------------------|
-| **id1**               | 🆔 Identifier for the first image in the pair.                                                    |
-| **id2**               | 🆔 Identifier for the second image in the pair.                                                   |
-| **materials_1**       | 🏗️ Materials in the first image. Specifies the substances or materials used in the first object.  |
-| **ObjectTypes_1**     | 🏷️ Object types in the first image. Defines the category or type of object represented.           |
-| **materials_2**       | 🏗️ Materials in the second image. Specifies the substances or materials used in the second object. |
-| **ObjectTypes_2**     | 🏷️ Object types in the second image. Defines the category or type of object represented.          |
-| **element_to_change** | 🔄 The element (materials or object type) that must change between the two images.                 |
-| **element_changed**   | ✔️ Specifies if the element was successfully modified between `id1` and `id2`.                    |
-| **partition**         | 📊 Denotes the dataset split (train, validation, test) that this row belongs to.                   |
-| **query**             | 🔍 Describes the retrieval task, indicating how the transformation from `id1` to `id2` should occur.|
+| 🔢 **Column**         | 📖 **Description**                                                                                   |
+|-----------------------|------------------------------------------------------------------------------------------------------|
+| **id1**               | 🆔 Identifier for the first image in the pair.                                                       |
+| **id2**               | 🆔 Identifier for the second image in the pair.                                                      |
+| **materials_1**       | 🏗️ Materials in the first image. Specifies the substances or materials used in the first object.    |
+| **ObjectTypes_1**     | 🏷️ Object types in the first image. Defines the category or type of object represented.             |
+| **materials_2**       | 🏗️ Materials in the second image. Specifies the substances or materials used in the second object.  |
+| **ObjectTypes_2**     | 🏷️ Object types in the second image. Defines the category or type of object represented.            |
+| **element_to_change** | 🔄 The element (materials or object type) that must change between the two images.                   |
+| **element_changed**   | 🔄 The element (materials or object type) that was changed between the two images.                   |
+| **partition**         | 📊 Denotes the dataset split (train, validation, test) that this row belongs to.                     |
+| **query**             | 🔍 Describes the retrieval task, indicating how the transformation from `id1` to `id2` should occur. |
 
 > **Note**: Each row in the CSV represents a relationship between two images (`id1` and `id2`), where an element in the first image is altered to generate the second image.
 
