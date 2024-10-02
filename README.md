@@ -8,7 +8,7 @@
 The **EUFCC-CIR** dataset is a novel resource designed for Composed Image Retrieval (CIR) within Galleries, Libraries, Archives, and Museums (GLAM) collections. This dataset expands upon the existing **EUFCC-340K** image labeling dataset and provides over 180K annotated CIR triplets. Each triplet consists of an image query and a short text description that indicates the desired modification, paired with a relevant target image. The dataset is especially useful for advancing research in digital humanities, offering a powerful tool for retrieving and interacting with cultural heritage items.
 
 **Paper link:** [EUFCC-CIR Paper](#)  
-**Related dataset:** [EUFCC-340K](#https://github.com/cesc47/EUFCC-340K/tree/main)
+**Related dataset:** [EUFCC-340K](https://github.com/cesc47/EUFCC-340K/tree/main)
 
 ## Dataset Structure
 
