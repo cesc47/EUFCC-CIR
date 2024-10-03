@@ -15,7 +15,7 @@ The **EUFCC-CIR** dataset is a cutting-edge resource designed to enable **Compos
 
 This dataset is particularly beneficial for researchers in **digital humanities**, allowing them to retrieve and interact with **cultural heritage items** in new and engaging ways.
 
-🔗 **Paper link**: [EUFCC-CIR Paper](#)  
+🔗 **Paper link**: [EUFCC-CIR Paper](http://arxiv.org/abs/2410.01536)  
 📂 **Related dataset**: [EUFCC-340K](https://github.com/cesc47/EUFCC-340K/tree/main)
 
 ---
