@@ -59,6 +59,6 @@ Below is an example visualization of how an image transformation is represented 
 To get started, clone the repository and download the necessary files from the **EUFCC-340K** dataset:
 
 ```bash
-git clone https://github.com/your-username/eufcc-cir-dataset.git
-cd eufcc-cir-dataset/data
-# Download dataset files
+git clone https://github.com/your-username/EUFCC-CIR.git 
+cd EUFCC-CIR/data
+# Download dataset files (from EUFCC-340K repo => link in the beginning)
